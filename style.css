@@ -240,3 +240,41 @@ body {
 .img {
     width: 100%;
 }
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #90d4c5;
+}
+
+.footer-heading {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2rem;
+    color: #2b7364;
+    margin-bottom: 5%;
+}
+
+.footer-links {
+    font-family: 'Barlow', sans-serif;
+    color: #478e7e;
+    margin: 2%;
+    text-decoration: none;
+    font-size: 18px;
+} 
+
+.footer-links:hover {
+    color: #fff;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.footer-social {
+    margin: 10% 1% 0;
+    color: #478e7e;
+}
+
+.footer-social:hover {
+    color: #fff;
+}
