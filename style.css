@@ -46,18 +46,44 @@ body {
     margin: auto;
 }
 
-.col-lg-6 {
-    height: 80vh;
+.grid-container {
+    display: grid;
+    grid-template-columns: 50vw auto;
+    grid-template-rows: 80vh;
+}
+
+.transform {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 .heading-transform {
     color: #000;
     font-family: 'Fraunces', serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .transform-text {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 5%;
+    font-size: 18px;
+    color: #8f8d97;
+    
+}
+
+.learn-more {
+    padding: 0 2%;
+    font-family: 'Fraunces', serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    border-bottom: solid 5px yellow ;
+    margin-top: 0;
+}
+
+.egg {
+    width: 100%;
 }
