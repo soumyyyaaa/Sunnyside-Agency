@@ -231,3 +231,12 @@ body {
 .testimonial-post {
     color: #c1c1c1;
 }
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.img {
+    width: 100%;
+}
