@@ -7,18 +7,25 @@ body {
     background-image: url("images/desktop/image-header.jpg");
     height: 100vh;
     background-size: cover;
+    padding-top: 1%;
 }
 
 .navbar-brand {
     color: #fff !important;
     font-family: 'Barlow', sans-serif;
     font-size: 27px !important;
+    float: left;
+    margin-left: 5%;
+}
+
+.navbar-collapse {
+    justify-content: end;
 }
 
 .custom-nav-link {
     font-family: 'Barlow', sans-serif;
-    color: #fff !important;
-    margin-top: 7%;
+    color: #d2feff !important;
+    margin-top: 2%;
 }
 
 .custom-nav-link:hover {
@@ -27,9 +34,7 @@ body {
 
 .btn {
     border-radius: 1.5rem !important;
-    font-family: 'Barlow', sans-serif !important;
-    padding-left: 25% !important;
-    padding-right: 25% !important;
+    font-family: 'Fraunces', serif !important;
 }
 
 .heading {
