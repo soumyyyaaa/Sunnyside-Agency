@@ -46,7 +46,7 @@ body {
     margin: auto;
 }
 
-.grid-container {
+#about {
     display: grid;
     grid-template-columns: 50vw auto;
     grid-template-rows: 80vh;
@@ -131,7 +131,7 @@ body {
     width: 100%;
 }
 
-.grid-container3 {
+#services {
     display: grid;
     grid-template-columns: 50vw auto;
     grid-template-rows: 80vh;
@@ -188,4 +188,46 @@ body {
     margin-top: 5%;
     font-size: 14px;
     text-align: center;
+}
+
+#projects {
+    padding: 7% 12%;
+}
+
+.testimonial-heading {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+    color: #b2b1b2;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    column-gap: 5%;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    margin-bottom: 10%;
+    width: 30%;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    color: #636568;
+    margin-bottom: 15%;
+}
+
+.testimonial-name {
+    color: #252b31;
+    font-family: 'Fraunces', serif;
+}
+
+.testimonial-post {
+    color: #c1c1c1;
 }
