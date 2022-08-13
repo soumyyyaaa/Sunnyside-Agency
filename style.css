@@ -59,7 +59,7 @@ body {
 }
 
 .heading-transform {
-    color: #000;
+    color: #252f3f;
     font-family: 'Fraunces', serif;
     font-size: 3.5rem;
 }
@@ -72,18 +72,120 @@ body {
     
 }
 
-.learn-more {
+.learn-more-transform {
     padding: 0 2%;
     font-family: 'Fraunces', serif;
-    color: #000;
+    color: #1d242e;
     text-decoration: none;
 }
 
-.learn-more:hover {
-    border-bottom: solid 5px yellow ;
+.learn-more-transform:hover {
+    border-bottom: solid 5px #ffd302 ;
     margin-top: 0;
 }
 
 .egg {
     width: 100%;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 50vw auto;
+    grid-template-rows: 80vh;
+    margin-top: 0.5%;
+}
+
+.audience {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.heading-audience {
+    color: #252f3f;
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+}
+
+.audience-text {
+    font-family: 'Barlow', sans-serif;
+    margin-top: 5%;
+    font-size: 18px;
+    color: #8f8d97;
+    
+}
+
+.learn-more-audience {
+    padding: 0 2%;
+    font-family: 'Fraunces', serif;
+    color: #1d242e;
+    text-decoration: none;
+}
+
+.learn-more-audience:hover {
+    border-bottom: solid 5px #fe7264;
+    margin-top: 0;
+}
+
+.cup {
+    width: 100%;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 50vw auto;
+    grid-template-rows: 80vh;
+    margin-top: 1.5%;
+}
+
+.graphic-design {
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+}
+
+.graphic-design-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.heading-graphic-design {
+    color: #1f564a;
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.graphic-design-text {
+    font-family: 'Barlow', sans-serif;
+    color: #1f564a;
+    margin-top: 5%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.photography {
+    background-image: url("images/desktop/image-photography.jpg");
+    background-size: cover;
+}
+
+.photography-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.heading-photography {
+    color: #14516f;
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.photography-text {
+    font-family: 'Barlow', sans-serif;
+    color: #14516f;
+    margin-top: 5%;
+    font-size: 14px;
+    text-align: center;
 }
