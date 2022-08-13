@@ -49,27 +49,22 @@ body {
 .arrow {
     display: block;
     margin: auto;
+    margin-top: 5%;
 }
 
 #about {
     display: grid;
     grid-template-columns: 50vw auto;
-    grid-template-rows: 80vh;
+    grid-template-rows: 74vh;
 }
 
-.transform {
+.about {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
 }
 
-.heading-transform {
-    color: #252f3f;
-    font-family: 'Fraunces', serif;
-    font-size: 3.5rem;
-}
-
-.transform-text {
+.about-text {
     font-family: 'Barlow', sans-serif;
     margin-top: 5%;
     font-size: 18px;
@@ -77,70 +72,41 @@ body {
     
 }
 
-.learn-more-transform {
+.learn-more {
     padding: 0 2%;
     font-family: 'Fraunces', serif;
     color: #1d242e;
     text-decoration: none;
 }
 
-.learn-more-transform:hover {
+.transform:hover {
     border-bottom: solid 5px #ffd302 ;
     margin-top: 0;
 }
 
-.egg {
+.img-about {
     width: 100%;
 }
 
-.grid-container2 {
-    display: grid;
-    grid-template-columns: 50vw auto;
-    grid-template-rows: 80vh;
-    margin-top: 0.5%;
+.img-about-copy {
+    display: none;
 }
 
-.audience {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
-.heading-audience {
+.heading-about {
     color: #252f3f;
     font-family: 'Fraunces', serif;
     font-size: 3rem;
 }
 
-.audience-text {
-    font-family: 'Barlow', sans-serif;
-    margin-top: 5%;
-    font-size: 18px;
-    color: #8f8d97;
-    
-}
-
-.learn-more-audience {
-    padding: 0 2%;
-    font-family: 'Fraunces', serif;
-    color: #1d242e;
-    text-decoration: none;
-}
-
-.learn-more-audience:hover {
+.audience:hover {
     border-bottom: solid 5px #fe7264;
     margin-top: 0;
-}
-
-.cup {
-    width: 100%;
 }
 
 #services {
     display: grid;
     grid-template-columns: 50vw auto;
-    grid-template-rows: 80vh;
-    margin-top: 1.5%;
+    grid-template-rows: 74vh;
 }
 
 .graphic-design {
@@ -148,7 +114,7 @@ body {
     background-size: cover;
 }
 
-.graphic-design-content {
+.services-content {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -172,12 +138,6 @@ body {
 .photography {
     background-image: url("images/desktop/image-photography.jpg");
     background-size: cover;
-}
-
-.photography-content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .heading-photography {
@@ -276,10 +236,146 @@ body {
 }
 
 .footer-social {
-    margin: 10% 1% 0;
+    margin: 8% 1% 0;
     color: #478e7e;
 }
 
 .footer-social:hover {
     color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+    .home {
+        background-image: url("images/mobile/image-header.jpg");
+        background-size: cover;
+        height: 80vh;
+    }
+    
+    .navbar-nav {
+        text-align: center;
+        background-color: #fffbf8;
+        margin: 3%;
+    }
+    
+    .custom-nav-link {
+        font-family: 'Barlow', sans-serif;
+        color: #84818c !important;
+        margin-top: 2%;
+    }
+    
+    .custom-nav-link:hover {
+        color: #d2feff !important;
+    }
+    
+    .btn {
+        background-color: #fbd700 !important;
+    }
+    
+    .heading {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+   
+    #about {
+        display: block;
+    }
+    
+    .about {
+        padding: 5% 7%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .heading-about {
+        font-size: 2rem;
+    }
+
+    .about-text {
+        font-size: 18px;
+    }
+
+    .img-about-copy {
+        display: block;
+    }
+
+    .img-about-egg {
+        display: none;
+    }
+    
+    #services {
+        display: block;
+    }
+    
+    .graphic-design {
+        background-image: url("images/mobile/image-graphic-design.jpg");
+        height: 90vh;
+    }
+    
+    .services-content {
+        width: 80%;
+    }
+    
+    .heading-graphic-design {
+        font-size: 1.5rem;
+    }
+    
+    .photography {
+        background-image: url("images/mobile/image-photography.jpg");
+        height: 90vh;
+    }
+    
+    .heading-photography {
+        font-size: 1.5rem;
+    }
+    
+    #projects {
+        padding: 10% 5%;
+    }
+    
+    .testimonial-heading {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    
+    .grid-container {
+        display: block;
+    }
+    
+    .testimonial-img {
+        width: 20%;
+        margin-top: 25%;
+    }
+    
+    .testimonial-text {
+        margin-bottom: 10%;
+    }
+    
+    .testimonial-post {
+        color: #c1c1c1;
+    }
+    
+    .grid-container3 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    #footer {
+        padding: 7% 5%;
+    }
+    
+    .footer-heading {
+        font-size: 1.5rem;
+        color: #2b7364;
+        margin-bottom: 5%;
+    }
+    
+    .footer-links {
+        margin: 5%;
+        font-size: 14px;
+    } 
+    
+    .footer-links:hover {
+        color: #fff;
+    }
+    
 }
