@@ -391,7 +391,7 @@ body {
 }
 
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
     .home {
         background-image: url("images/mobile/image-header.jpg");
         background-size: cover;
