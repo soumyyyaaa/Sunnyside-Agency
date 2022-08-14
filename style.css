@@ -244,6 +244,153 @@ body {
     color: #fff;
 }
 
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+    .home {
+        background-image: url("images/mobile/image-header.jpg");
+        background-size: cover;
+    }
+    
+    .navbar-nav {
+        text-align: center;
+        background-color: #fffbf8;
+        margin: 3%;
+    }
+    
+    .arrow {
+        margin-top: 15%;
+    }
+
+    .custom-nav-link {
+        font-family: 'Barlow', sans-serif;
+        color: #84818c !important;
+        margin-top: 2%;
+    }
+    
+    .custom-nav-link:hover {
+        color: #d2feff !important;
+    }
+    
+    .btn {
+        background-color: #fbd700 !important;
+    }
+    
+    .heading {
+        margin-top: 10%;
+    }
+    
+    #about {
+        grid-template-columns: 50vw auto;
+        grid-template-rows: 29vh;
+    }
+    
+    .about {
+        width: 100%;
+        padding: 2% 5%;
+    }
+    
+    .heading-about {
+        font-size: 2.5rem;
+    }
+
+    #services {
+        grid-template-rows: 30vh;
+    }
+    
+    .services-content {
+        width: 100%;
+        padding: 2% 5%;
+    }
+    
+    .heading-graphic-design {
+        font-size: 1.8rem;
+    }
+    
+    .graphic-design-text {
+        margin-top: 3%;
+    }
+    
+    .heading-photography {
+        font-size: 1.8rem;
+    }
+    
+    .photography-text {
+        margin-top: 3%;
+    }
+    
+
+    #projects {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .testimonial-heading {
+        margin-bottom: 0;
+    }
+    
+    .grid-container {
+        grid-template-columns: auto;
+    }
+    
+    .testimonial-img {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 20%;
+    }
+    
+    .testimonial-text {
+        margin-bottom: 5%;
+    }
+    
+    .grid-container3 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    
+    .img {
+        width: 100%;
+    }
+    
+    #footer {
+        padding: 7% 15%;
+        text-align: center;
+        background-color: #90d4c5;
+    }
+    
+    .footer-heading {
+        font-family: 'Barlow', sans-serif;
+        font-size: 2rem;
+        color: #2b7364;
+        margin-bottom: 5%;
+    }
+    
+    .footer-links {
+        font-family: 'Barlow', sans-serif;
+        color: #478e7e;
+        margin: 2%;
+        text-decoration: none;
+        font-size: 18px;
+    } 
+    
+    .footer-links:hover {
+        color: #fff;
+    }
+    
+    .link {
+        text-decoration: none;
+    }
+    
+    .footer-social {
+        margin: 8% 1% 0;
+        color: #478e7e;
+    }
+    
+    .footer-social:hover {
+        color: #fff;
+    }
+    
+}
+
+
 @media screen and (max-width: 375px) {
     .home {
         background-image: url("images/mobile/image-header.jpg");
